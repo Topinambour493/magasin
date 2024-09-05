@@ -1,0 +1,37 @@
+.productCard{
+    border: black 1px solid;
+    margin:5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nameProductCard{
+    background-color: #ffe7b1;
+    padding: 5px;
+}
+
+.deleteProductCard{
+    background-color: red;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.statusProductCard{
+    padding: 5px;
+}
+
+
+.editProductCard{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    flex-direction: column;
+    background-color: #61dafb;
+}
+
+button{
+    cursor: pointer;
+}
+ label {
+     display: flex;
+ }

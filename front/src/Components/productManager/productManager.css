@@ -1,0 +1,21 @@
+#productsCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productManager{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productManager > * {
+    padding: 5px;
+}
+
+select{
+    cursor: pointer;
+}
